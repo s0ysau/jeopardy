@@ -1,0 +1,53 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+html {
+  background-color: rgb(62, 95, 115);
+}
+
+.welcome,
+.answer,
+.score,
+.question,
+.category,
+.points {
+  color: white;
+}
+
+.static-word {
+  color: rgb(234, 210, 122);
+}
+
+.getQuestionBtn {
+  background-color: rgb(234, 210, 122);
+  color: rgb(27, 37, 80);
+  height: 50px;
+  width: 100px;
+}
+
+.revealBtn {
+  background-color: rgb(27, 37, 80);
+  color: white;
+  width: 250px;
+  height: 50px;
+}
+
+.scoreBtns {
+  display: flex;
+  justify-content: space-evenly;
+  height: 35px;
+}
+
+.decreaseBtn {
+  background-color: #ff938d;
+}
+
+.increaseBtn {
+  background-color: #4f7795;
+}
+
+.resetBtn {
+  background-color: red;
+}
